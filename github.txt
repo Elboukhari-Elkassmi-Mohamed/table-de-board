@@ -1,0 +1,20 @@
+//permit d identifier local a git :
+  git config --global user.name "Votre nom"
+  git config --global user.email "votre-email@email.com"
+
+
+//pour changer le nom de branch [master a main]
+  git config --global init.defaultBranch main
+
+//pour colorer notre code
+  git config --global color.ui auto
+
+//Vérifier si l'identification correctement
+  git config --get user.name
+  git config --get user.email
+
+//pour savoir si vous avez une clé SSH
+
+  ls ~/.ssh/id_rsa.pub
+
+	
