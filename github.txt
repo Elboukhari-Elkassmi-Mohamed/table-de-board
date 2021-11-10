@@ -1,20 +1,32 @@
-//permit d identifier local a git :
-  git config --global user.name "Votre nom"
-  git config --global user.email "votre-email@email.com"
+
+//permit d identifier local a git .                                             //permit de clonez votre repertoir github a votre machine local
+  #git config --global user.name "Votre nom".                                      #git clone + <url>
+  #git config --global user.email "votre-email@email.com".                      
 
 
-//pour changer le nom de branch [master a main]
-  git config --global init.defaultBranch main
+//pour changer le nom de branch [master a main]                                 // vérifiez si la connexion s'est bien établie avec le répertoire sur GitHub
+  #git config --global init.defaultBranch main                                     # git remote -v
 
-//pour colorer notre code
-  git config --global color.ui auto
+ //pour colorer notre code.
+  #git config --global color.ui auto                                            // il donne git la permision pour tracker un repertoir. 
+                                                                                   #git init
 
-//Vérifier si l'identification correctement
-  git config --get user.name
-  git config --get user.email
+//il affiche email et nom entré par l'utilisateur                               // il affichez le nom de Branch et le statut de "working area"et "staging area"
+  pendant la phase de configuration.                                               #git status
+  #git config --get user.name                                                      
+  #git config --get user.email                                                  // perparer le fichier qui tu es modifer ou cree pour commit  
+                                                                                   #git add
+                                                                                 
+//pour savoir si vous avez une clé SSH a votre machine                          // vous utiliser commit pour enregistrer les modifications
+  #ls ~/.ssh/id_rsa.pub                                                            #git commit -m "message"
 
-//pour savoir si vous avez une clé SSH
 
-  ls ~/.ssh/id_rsa.pub
+// permit de cree clee ssh                                                      // sauvgardez votre travaille a github
+   #ssh-keygen -C votre-email@email.com.                                           #git push origin main
+
+// Il affiche la cle entre id_rsa.pub pour coller dane github .
+   #cat ~/.ssh/id_rsa.pub
+
+
 
 	
