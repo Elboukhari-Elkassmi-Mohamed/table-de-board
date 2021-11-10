@@ -24,9 +24,9 @@
 // permit de cree clee ssh                                                      // sauvgardez votre travaille a github
    #ssh-keygen -C votre-email@email.com.                                           #git push origin main
 
-// Il affiche la cle entre id_rsa.pub pour coller dane github .
+// Il affiche la cle entre id_rsa.pub pour coller dane github .                 // for knownig the details of the file
+                                                                                    #git log
    #cat ~/.ssh/id_rsa.pub
-
 
 
 	
