@@ -35,3 +35,40 @@
 
            the knowledge of knowing git and github its very important skill and necessary too use one my future project 
                     and also can be use in company project to save my work and manage it
+
+
+11-10-2021
+
+                                               <what did I see> 
+                                we did Quiz about git&github and language C variables  
+                                     also we did learn about variables in language C
+
+                                               <what did i learn> 
+                               i learn about the history of C and language creators
+                                      our group did little presentation about it
+                                    we also start some exercise in C language
+
+                                               <how it will help>
+                                language C language it's the basics of all languages
+                                         so its very importent to know about it
+                                 and will be great help to learn others like java,javacp
+                                                     python..
+
+
+11-11-2021
+                                     
+                                             <what did I see>
+                             i did see a lot about language C and i completed my challenges 
+                                           
+                                              
+                                                <what did I see>
+                                      
+                                 i did learn more than yesterday about language C after 
+                                 we also created discord serveur to do live cooding and talk
+                                   about it to exchange information between us 
+                                     from that i captured alot of information about 
+                                                   if statement
+
+                                               <how it will help>
+                                      all that will help me to master C language 
+             
