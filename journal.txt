@@ -1,74 +1,90 @@
 11-08-2021
 
-                                                 <what did I see> 
-                             first day at youcode i meet our formateur and our class mate 
-                             we did a stand-up presentation & last was git and github
+<what did I see> 
+On the first day at youcode, I meet our formateur and our classmate 
+we did a stand-up presentation & last was git and Github.
 
-                               
-                                            
-                                               <what did i learn>
-                      i learn how to do public speaking and also took some tips about it 
-                                  and i learn about méthode scrum that YouCode use 
-                                   and how to install git & creat github account
-                                 and i gain a lot of knowledge about my classe mate 
-                                
-                                              
-                                 
-                                                <how it will help>
-                            of course what i learn that day can help and will in the future  
-                                        like speaking at some interview
-                     or doing public speaking wihtout talking about the importance of git & github 
+<what did I learn>
+I learned how to do public speaking and also took some tips about it from formateur 
+and I learn about méthode scrum that YouCode use and how to install git & create Github 
+account and I knew a lot of information about my classmates.
+
+<how it will help>
+Of course what I learned this  day can help and will in the future  
+like speaking at some interview or doing public speaking without talking 
+about the importance of git & Github in my future projects .
+
 
 11-09-2021
 
-                                                <what did I see> 
-                                   we spend all day learning about git&github
 
-                                    
-                                              <what did i learn> 
-                           i learn how to config git in local machine and also sett ssh key
-                                  and learning a lot of git command lit add clone commit 
-                                          and put our project on github  
+<what did I see> 
+we spend all day learning about git & Githu
 
-                                
-                                               <how it will help>
+<what did I learn> 
+I learned how to config git in a local machine and also set ssh key
+and learning a lot of git command lit add clone commit pushand put our project 
+on Github  .
 
-           the knowledge of knowing git and github its very important skill and necessary too use one my future project 
-                    and also can be use in company project to save my work and manage it
-
+<how it will help>
+the knowledge of knowing git and Github is a very important skill and necessary to use one 
+my future project and also can be used in a company project to save my work and manage it will .
 
 11-10-2021
 
-                                               <what did I see> 
-                                we did Quiz about git&github and language C variables  
-                                     also we did learn about variables in language C
+<what did I see>
+we did Quiz about git&github and language C variables also, we did 
+learn about variables in language C .
 
-                                               <what did i learn> 
-                               i learn about the history of C and language creators
-                                      our group did little presentation about it
-                                    we also start some exercise in C language
+<what did I learn>
+I learn about the history of C and language creators our group did 
+a little presentation about it we also start some exercise in the C language.
 
-                                               <how it will help>
-                                language C language it's the basics of all languages
-                                         so its very importent to know about it
-                                 and will be great help to learn others like java,javacp
-                                                     python..
+<how it will help>
+
+language C language it's the basics of all languages so it's very 
+important to know about it and will be a great help to learn others like java,
+javacp ,python..
+
+ 11-11-2021
+
+<what did I see>
+I did see a lot about language C and I also completed my challenges .
+
+<what did I see>
+
+I did learn more than yesterday about language C after we also created a discord server to do live coding and talk
+about it to exchange information between us  from that, i captured a lot of information about 
+if statemen.
+
+<how it will help>
+all that will help me to master C language 
 
 
-11-11-2021
-                                     
-                                             <what did I see>
-                             i did see a lot about language C and i completed my challenges 
-                                           
-                                              
-                                                <what did I see>
-                                      
-                                 i did learn more than yesterday about language C after 
-                                 we also created discord serveur to do live cooding and talk
-                                   about it to exchange information between us 
-                                     from that i captured alot of information about 
-                                                   if statement
 
-                                               <how it will help>
-                                      all that will help me to master C language 
-             
+
+15-11-2021
+
+<what did I see>
+At first, I did fix my computer after I counter bios probleme 
+then they told us to choose 10 people to go down to the conference room to meet Frederic Bardeau
+president Cofondateur after that, we did a quiz about what we learned  the last two weeks
+
+<what did I learn>
+I learned from Frederic Bardeau Statistique
+that there are jobs when workers and robots work together and jobs that robots can't do and jobs that were dominated by robots 
+he also talk about the numerique transormation and after the quiz, the formateur give us some remark about our progress and what we should do to advance more
+
+<how it will help>
+all that will lead to self-education that  also will  lead to self-development
+without any boundaries, 
+
+
+
+
+
+
+
+
+                        
+
