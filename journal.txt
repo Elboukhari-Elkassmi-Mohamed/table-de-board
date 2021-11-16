@@ -80,6 +80,20 @@ all that will lead to self-education that  also will  lead to self-development
 without any boundaries, 
 
 
+16-11-2021
+
+<what did I see>
+today was all about live coding  and we also talked  about the algorithm history and  the big O nation of algorithm  algorithm uses
+
+<what did I learn>
+i learned a lot of things from today class because the live coding we did and how deal with the problemes we counter 
+and a lot of question has been  asked and answered form both the teacher and student after lunch my classmate did  presentaion
+contain history and the structure of algorithm and also, talk about linear search and binary search algorithm
+
+
+<how it will help>
+the live coding was very helpful to improve code problem solving  
+the presentaion also give a lot of information about algoritm .
 
 
 
