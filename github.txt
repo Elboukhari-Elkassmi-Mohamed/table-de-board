@@ -1,5 +1,5 @@
 
-//permit d identifier local a git .                                             //permit de clonez votre repertoir github a votre machine local
+//permet d identifier local a git .                                             //permit de clonez votre repertoir github a votre machine local
   #git config --global user.name "Votre nom".                                      #git clone + <url>
   #git config --global user.email "votre-email@email.com".                      
 
