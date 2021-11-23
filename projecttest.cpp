@@ -1,68 +1,84 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include <string.h>
 
 
-void ajoute(int opperation);
-void menu();  
 
-
-  struct compte {
-	char nom[30];
-	char prenom [30];
-	char cin [30];
-	double montant;
+   struct compte {
+	char nom[100];
+	char prenom [100];
+	char cin [100];
+	float montant;
 };
 
+struct compte C[100];
 
-//vous utiliser cette function for add 1 acc & multiple acc A
+ 
+ 
+void ajoute();
+ void menu();
 
 
-void ajoute(int opperation) 
+//vous utiliser cette function for add multiple acc A
+
+int compteur=0;
+
+void ajoute() 
 { 
  system ("cls");
-       struct compte clients;
 int i;
-compte clients[];
-int choixm;
+int choix;
 
-       
-	printf("\n\n \t\t \t\t \t\t Welcom ");
+	printf("\n\n \t\t \t\t \t\t enter les nombre des creation des compte: ");
+	scanf("%d",&choix);
 		   
-
-		{
-        printf("\n nom :\n ");
-        scanf("%s",clients[i].nom);
+		for (i=0;i<choix;i++){
+		
+       printf("\n nom :\n ");
+       scanf("%s", C[i].nom);
         printf("\n prenom:\n ");
-        scanf("%s",&clients[i].prenom); 
+       scanf("%s", C[i].prenom); 
         printf("\n cin:\n ");
-        scanf("%s",&clients[i].cin); 
+        scanf("%s", C[i].cin); 
         printf("\n montant:\n ");
-        scanf("%f",&clients[i].montant); 	  
+      scanf("%f",&C[i].montant); 	  
         
-	    }
-	    if(opperation == 2){
+	    compteur++;
+		}
+	    
 	    	 system ("cls");
 	    	 fflush(stdin);
-
-	     printf("\n\n\t\t\t\t\t Pour ajouter un compte suplementaire tapez 1 ");
-         printf("\n\t\t\t\t\t Cliquez sur n'importe quelle touche pour revenir au menu principal \n ");
-         scanf("%d",&choixm);
+	    	 
+			 }
          
-         if(choixm == 1){
-         	ajoute(2);
-		 }else{
-		 	menu();
-		 }
-			}
-      
-	    
+    
+
+
+//function de recherhce 
+void recherhce (){
+char rech[20];
+int i;
+int position=0;
+
+       printf("entrer cin de client que vous recherche \n");
+       scanf("%s",rech);
+	   for (i=0;i<compteur;i++)
+           if (strcmp(rech,C[i].cin) == 0)
+             {
+             	printf("%s %s %s %.2f",C[i].nom,C[i].prenom,C[i].cin,C[i].montant);
+                            position=i;
+
+              }
+       else 
+         printf("ce client n'est exist pas\n ");
 }
 
 
 
-
 void menu()
-{	   
+{
+printf("hello");
+	  
 				  system ("cls");
 
    int  choix;
@@ -71,9 +87,8 @@ void menu()
 
 
           printf("\n\n\t\t\t\t\t\t\tMenu\n\n");
-   	      printf("\t\t\t\t\t Ajouter un compte bancaire .......:1\n");
-          printf("\t\t\t\t\t Ajouter multiple compte bancaire..:2\n");
-          printf("\t\t\t\t\t Operations .......................:3\n");
+          printf("\t\t\t\t\t Ajouter multiple compte bancaire..:1\n");
+          printf("\t\t\t\t\t Operations .......................:2\n");
           printf("\t\t\t\t\t Affichage.........................:4\n");
           printf("\t\t\t\t\t Fidelisation......................:5\n");
           printf("\t\t\t\t\t Quitter...........................:0\n");
@@ -87,14 +102,17 @@ void menu()
           switch(choix)
           {          	  
 
-                  case 1: ajoute(1) ;
-				  printf ("\t\t\t    you added your acountes seccesfully");
-				                menu(); break ;
-				 
+                  case 1: ajoute() ;
+				  menu();	
+				  	
+								 break ;
                                                                                                                                                                                                 	
-                  case 2: ajoute(2) ; break ;
-                  case 3:
-                  	system ("cls");
+                  case 2: recherhce ();
+                  
+				  
+				   break ;
+				   
+                  case 3: 
 
                   	printf("\t\t\t\t\t Pour Operations De Retrait........:1\n");
                 	printf("\t\t\t\t\t Pour Operations De Depot..........:2\n");
@@ -117,7 +135,8 @@ void menu()
 
 
 int main(){
-	
-        menu();       
-       
+	void ajoute();
+	void recherhce ();
+
+  menu();       
 }
