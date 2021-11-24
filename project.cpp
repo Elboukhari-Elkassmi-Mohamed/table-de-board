@@ -138,7 +138,7 @@ void triagmontantdown(){
 for (i=0;i<compteur;i++)
     {if(mt > C[i].montant){
 	
-	printf("\n %s %s %s %f \n",C[i].nom,C[i].prenom,C[i].cin,C[i].montant);
+	printf("\n %s %s %s %.2f \n",C[i].nom,C[i].prenom,C[i].cin,C[i].montant);
     
 		  }      
 	}
@@ -168,7 +168,7 @@ void triagmontantup(){
 for (i=0;i<compteur;i++)
     {if(mt < C[i].montant){
 	
-	printf("\n %s %s %s %f \n",C[i].nom,C[i].prenom,C[i].cin,C[i].montant);
+	printf("\n %s %s %s %.2f \n",C[i].nom,C[i].prenom,C[i].cin,C[i].montant);
     
 		  }      
 	}
@@ -192,10 +192,10 @@ void triAscendant(){
 
 for (i=0;i<compteur;i++)
           {
-	printf("\n %s %s %s %f \n",C[i].nom,C[i].prenom,C[i].cin,C[i].montant);
+	printf("\n %s %s %s %.2f \n",C[i].nom,C[i].prenom,C[i].cin,C[i].montant);
           }
 }
-
+// triDescendant
 void triDescendant (){
 	struct compte tmp ;
 	int i;
@@ -214,10 +214,37 @@ void triDescendant (){
 }
 for (i=0;i<compteur;i++)
           {
-	printf("\n %s %s %s %f \n",C[i].nom,C[i].prenom,C[i].cin,C[i].montant);
+	printf("\n %s %s %s %.2f \n",C[i].nom,C[i].prenom,C[i].cin,C[i].montant);
           }
 }
+//fidelisation 
 
+void fidelisation(){
+	
+	struct compte tmp ;
+	int i;
+	int k;
+
+	 for (i=0;i<compteur;i++){
+	   for (k=0;k < compteur -i -1 ; k++){
+	    if(C[k].montant < C[k+1].montant){
+	       tmp = C[k];
+	       C[k]=C[k+1];
+	       C[k+1]=tmp ;
+    	}	
+	}	
+}
+
+for (i=0;i<3;i++){
+
+    {( C[i].montant*=(1.013)) ;
+	
+	printf("\n %s %s %s %.2f \n",C[i].nom,C[i].prenom,C[i].cin,C[i].montant);
+    
+		  }      
+	}
+}
+//
 
 
 
@@ -269,8 +296,10 @@ void menu()
            	                    case 4:triagmontantdown(); system("pause");menu();break;
            	                	default: menu();
 							   }
+			    	case 4: fidelisation() ;system("pause");menu(); break; 
+					case 0 : break ; 
            	                
-                                default : menu() ;
+                     default : menu() ;
                  
           }
       
