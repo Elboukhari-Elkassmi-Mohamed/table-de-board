@@ -36,13 +36,13 @@ int choix;
     	for (i=0;i<choix;i++)
 		{
           printf("\n nom : ");
-          scanf("%s", C[compteur].nom);
+          scanf("%s", C[i].nom);
           printf("\n prenom: ");
-          scanf("%s", C[compteur].prenom); 
+          scanf("%s", C[i].prenom); 
           printf("\n cin: ");
-          scanf("%s", C[compteur].cin); 
+          scanf("%s", C[i].cin); 
           printf("\n montant: ");
-          scanf("%f",&C[compteur].montant); 	  
+          scanf("%f",&C[i].montant); 	  
         
 	       compteur++;
 		}
@@ -58,7 +58,7 @@ void retrait (int i)
 { 
    float mount;
                system ("cls");
-	printf ("much do you want to withdrawal :");
+	printf ("How much do you want to withdrawal :");
 	scanf ("%f",&mount);
 	
 	C[i].montant -= mount;
@@ -107,11 +107,73 @@ int position;
 
 			   }
         }
-       else 
-         printf("ce client n'est exist pas\n ");system("pause");menu();
+       else            system ("cls");
+         printf("This  Client Is Not Exist \n ");system("pause");menu();
          
 
 }
+
+
+//triage par montant from up to down
+
+void triagmontantdown(){
+	
+	struct compte tmp ;
+	int i;
+	int k;
+	float mt;
+	printf ("Enter Your amount:");
+	scanf ("%f",&mt);
+	 for (i=0;i<compteur;i++){
+	   for (k=0;k < compteur -i -1 ; k++){
+	    if(C[k].montant > C[k+1].montant){
+	       tmp = C[k];
+	       C[k]=C[k+1];
+	       C[k+1]=tmp ;
+    	}	
+	}	
+}
+
+
+for (i=0;i<compteur;i++)
+    {if(mt > C[i].montant){
+	
+	printf("\n %s %s %s %f \n",C[i].nom,C[i].prenom,C[i].cin,C[i].montant);
+    
+		  }      
+	}
+}
+//triage mantant from down to up
+
+
+void triagmontantup(){
+	
+	struct compte tmp ;
+	int i;
+	int k;
+	float mt;
+	printf ("Enter Your amount:");
+	scanf ("%f",&mt);
+	 for (i=0;i<compteur;i++){
+	   for (k=0;k < compteur -i -1 ; k++){
+	    if(C[k].montant > C[k+1].montant){
+	       tmp = C[k];
+	       C[k]=C[k+1];
+	       C[k+1]=tmp ;
+    	}	
+	}	
+}
+
+
+for (i=0;i<compteur;i++)
+    {if(mt < C[i].montant){
+	
+	printf("\n %s %s %s %f \n",C[i].nom,C[i].prenom,C[i].cin,C[i].montant);
+    
+		  }      
+	}
+}
+
 //////tri 
 
 void triAscendant(){
@@ -133,31 +195,7 @@ for (i=0;i<compteur;i++)
 	printf("\n %s %s %s %f \n",C[i].nom,C[i].prenom,C[i].cin,C[i].montant);
           }
 }
-/////tri par nom
-//void trinom(){
-//	struct compte tmp ;
-//	int i;
-//	int k;
-//	 for (i=0;i<compteur;i++){
-//	   for (k=0;k<compteur-i-1;k++){
-//	    if(C[k].prenomC[k+1].prenom){
-//	       tmp = C[k];
-//	       C[k]=C[k+1];
-//	       C[k+1]=tmp ;
-//		}
-//	
-//	
-//}
 
-//}
-//for (i=0;i<compteur;i++)
-//          {
-//	printf("\n %s %s %s %f \n",C[i].nom,C[i].prenom,C[i].cin,C[i].montant);
-//          }
-//	
-//	
-//}
-//////tri 
 void triDescendant (){
 	struct compte tmp ;
 	int i;
@@ -218,23 +256,21 @@ void menu()
                   break ;
 				   
                   case 3:                 system ("cls");
-				          printf("\nTo Descendant all Accounts Press:1\n");
-           	              printf("\nTo Ascendant  all Account Press:2\n");
+				          printf("\nTo list all accounts Descending order Press:1\n");
+           	              printf("\nTo list all accounts Ascending order Press.:2\n");
+           	              printf("\nTo list all accounts Above your amount ....:3\n");
+           	              printf("\nTo list all accounts Under your amount ....:4\n");
            	                scanf("%d",&s);
            	                switch(s){
            	                	
            	                	case 1:triAscendant ();system("pause");menu(); break;
            	                    case 2:triDescendant();system("pause");menu();break;
-////           	                    case 3:trinom();system("pause");menu();break;
-           	                    case 4:
+           	                    case 3:triagmontantup();system("pause");menu();break;
+           	                    case 4:triagmontantdown(); system("pause");menu();break;
            	                	default: menu();
 							   }
            	                
-				   break ;
-                  case 5:break ;
-                  case 6: break ;
-                  
-                  default : menu() ;
+                                default : menu() ;
                  
           }
       
