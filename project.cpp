@@ -21,7 +21,7 @@ void menu();
 
 
 // compteur pour utiliser a la recherhce 
-int compteur=1;
+int compteur=0;
 //vous utiliser cette function for add  acc 
 
 void ajoute() 
@@ -33,7 +33,7 @@ int choix;
 	printf("\n\n\nEnter the number of accounts you want to be created : ");
 	scanf("%d",&choix);
 		   
-    	for (i=1;i<=choix;i++)
+    	for (i=0;i<choix;i++)
 		{
           printf("\n nom : ");
           scanf("%s", C[compteur].nom);
@@ -59,10 +59,10 @@ void retrait (int i)
    float mount;
                system ("cls");
 	printf ("much do you want to withdrawal :");
-	scanf ("%.2f",&mount);
+	scanf ("%f",&mount);
 	
 	C[i].montant -= mount;
-	printf ("%.2f\n",C[i].montant);	
+	printf ("%f\n",C[i].montant);	
 	
 }
 //Deposit 
@@ -74,7 +74,7 @@ void Depot(int i)
 	scanf ("%f",&mount);
 	
 	C[i].montant += mount;
-	printf ("%.2f\n",C[i].montant);	
+	printf ("%f\n",C[i].montant);	
     
 }
 
@@ -87,13 +87,13 @@ int position;
                                 system ("cls");
        printf("Enter CIN Client That You Are Looking For :");
        scanf("%s",rech);
-    for (i=1;i<compteur;i++)
+    for (i=0;i<compteur;i++)
      
 	  if (strcmp(rech,C[i].cin) == 0)
          {
-        	printf("le compte est exist %s %s %s %.2f",C[i].nom,C[i].prenom,C[i].cin,C[i].montant);
+        	printf("le compte est exist %s %s %s %f",C[i].nom,C[i].prenom,C[i].cin,C[i].montant);
              position=i;
-                            	 system ("cls");
+//                            	 system ("cls");
              printf("\nTo Withdraw From This Account Press:1\n");
            	 printf("\nTo Deposit From This Account Press :2\n");
            	scanf("%d",&s);
@@ -108,10 +108,78 @@ int position;
 			   }
         }
        else 
-         printf("ce client n'est exist pas\n ");
+         printf("ce client n'est exist pas\n ");system("pause");menu();
          
 
 }
+//////tri 
+
+void triAscendant(){
+	struct compte tmp ;
+	int i;
+	int k;
+	 for (i=0;i<compteur;i++){
+	   for (k=0;k < compteur -i -1 ; k++){
+	    if(C[k].montant > C[k+1].montant){
+	       tmp = C[k];
+	       C[k]=C[k+1];
+	       C[k+1]=tmp ;
+    	}	
+	}	
+}
+
+for (i=0;i<compteur;i++)
+          {
+	printf("\n %s %s %s %f \n",C[i].nom,C[i].prenom,C[i].cin,C[i].montant);
+          }
+}
+/////tri par nom
+//void trinom(){
+//	struct compte tmp ;
+//	int i;
+//	int k;
+//	 for (i=0;i<compteur;i++){
+//	   for (k=0;k<compteur-i-1;k++){
+//	    if(C[k].prenomC[k+1].prenom){
+//	       tmp = C[k];
+//	       C[k]=C[k+1];
+//	       C[k+1]=tmp ;
+//		}
+//	
+//	
+//}
+
+//}
+//for (i=0;i<compteur;i++)
+//          {
+//	printf("\n %s %s %s %f \n",C[i].nom,C[i].prenom,C[i].cin,C[i].montant);
+//          }
+//	
+//	
+//}
+//////tri 
+void triDescendant (){
+	struct compte tmp ;
+	int i;
+	int k;
+	 for (i=0;i<compteur;i++){
+	   for (k=0;k<compteur-i-1;k++){
+	    if(C[k].montant < C[k+1].montant){
+	       tmp = C[k];
+	       C[k]=C[k+1];
+	       C[k+1]=tmp ;
+		}
+	
+	
+}
+
+}
+for (i=0;i<compteur;i++)
+          {
+	printf("\n %s %s %s %f \n",C[i].nom,C[i].prenom,C[i].cin,C[i].montant);
+          }
+}
+
 
 
 
@@ -122,15 +190,16 @@ void menu()
 
    int  choix;
    int position;
+   int s;
 
 
 
           printf("\n\n\t\t\t\t\t\t\tMenu\n\n");
           printf("\t\t\t\t\t Add an account.............................:1\n");
           printf("\t\t\t\t\t Deposit and withdrawa From an account......:2\n");
-          printf("\t\t\t\t\t Affichage.........................:4\n");
-          printf("\t\t\t\t\t Fidelisation......................:5\n");
-          printf("\t\t\t\t\t Quitter...........................:0\n");
+          printf("\t\t\t\t\t Affichage...................................3\n");
+          printf("\t\t\t\t\t Fidelisation...............................:4\n");
+          printf("\t\t\t\t\t Quitter....................................:0\n");
           
           printf("\n\n\n\n\n\n\t\t\t\tS'ils Vous Plait selectioner Votre Choix:");
           scanf("%d", &choix);
@@ -148,12 +217,24 @@ void menu()
                   case 2: recherhce ();
                   break ;
 				   
-                  case 3: break ;
+                  case 3:                 system ("cls");
+				          printf("\nTo Descendant all Accounts Press:1\n");
+           	              printf("\nTo Ascendant  all Account Press:2\n");
+           	                scanf("%d",&s);
+           	                switch(s){
+           	                	
+           	                	case 1:triAscendant ();system("pause");menu(); break;
+           	                    case 2:triDescendant();system("pause");menu();break;
+////           	                    case 3:trinom();system("pause");menu();break;
+           	                    case 4:
+           	                	default: menu();
+							   }
+           	                
+				   break ;
                   case 5:break ;
                   case 6: break ;
                   
                   default : menu() ;
-                  break ;
                  
           }
       
