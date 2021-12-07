@@ -130,7 +130,7 @@ it will help by creat new web site and designe
 
                          <what did I see>
 yesterday we did road map of our courses and competence we should gain at the end of this year.
-today we did quiz about what  we study this last to days 
+    today we did quiz about what  we study this last to days 
 
                         <what did I learn>
 we did say a lot of things these two days as what is difference between
@@ -139,6 +139,53 @@ of this year that we gonna follow and programs we gonna use like javasc HTML CSS
 
                        <how it will help>
 it will help by creat web site and improve my designe 
+
+06-12-21
+
+                       <what did I see>
+Today I saw the new information related to HTML & CSS like pseudo class
+ and many selectors in CSS, After that, we answered questions in website quizizz.
+                           
+
+                      <what did I learn>
+ in this day i completed brief with resposive and i search at the selectors css like 
+ and the element HTML like display.
+
+
+                      <how it will help>
+
+ Through this information I know how to creat webpage with HTML & CSS.
+
+07-12-21
+                           
+                       <what did I see>
+today we meet our new coach Asmae  and my friend aymen and brahim 
+did bouth of them presentaion about mobile first & search engine optimization 
+ 
+                        <what did I learn>
+coach Asmae will prepper us to develop our soft skills and also 
+teach us how to apply for stage and jobs in the future  and show us the way of searching 
+for specific subject and we learned a lot from mobile first & search engine optimization 
+presentaion 
+                   
+                          <how it will help>
+from bouth subject i learned the importance of  web mobile
+responsive and relation with search engine optimization 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
