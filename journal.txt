@@ -1,130 +1,132 @@
 11-08-2021
 
-<what did I see> 
-On the first day at youcode, I meet our formateur and our classmate 
-we did a stand-up presentation & last was git and Github.
+                              <what did I see> 
+            On the first day at youcode, I meet our formateur and our classmate 
+                we did a stand-up presentation & last was git and Github.
 
-<what did I learn>
+                             <what did I learn>
 I learned how to do public speaking and also took some tips about it from formateur 
 and I learn about méthode scrum that YouCode use and how to install git & create Github 
-account and I knew a lot of information about my classmates.
+            account and I knew a lot of information about my classmates.
 
-<how it will help>
-Of course what I learned this  day can help and will in the future  
-like speaking at some interview or doing public speaking without talking 
-about the importance of git & Github in my future projects .
-
-
-11-09-2021
+                             <how it will help>
+        Of course what I learned this  day can help and will in the future  
+      like speaking at some interview or doing public speaking without talking 
+            about the importance of git & Github in my future projects .
 
 
-<what did I see> 
-we spend all day learning about git & Githu
+ 11-09-2021
 
-<what did I learn> 
-I learned how to config git in a local machine and also set ssh key
-and learning a lot of git command lit add clone commit pushand put our project 
-on Github  .
 
-<how it will help>
+                              <what did I see> 
+               we spend all day learning about git & Githu
+
+                             <what did I learn> 
+     I learned how to config git in a local machine and also set ssh key
+  and learning a lot of git command lit add clone commit pushand put our project 
+                              on Github  .
+
+                            <how it will help>
 the knowledge of knowing git and Github is a very important skill and necessary to use one 
 my future project and also can be used in a company project to save my work and manage it will .
 
 11-10-2021
 
-<what did I see>
-we did Quiz about git&github and language C variables also, we did 
-learn about variables in language C .
+                           <what did I see>
+  we did Quiz about git&github and language C variables also, we did 
+                 learn about variables in language C .
 
-<what did I learn>
-I learn about the history of C and language creators our group did 
+                         <what did I learn>
+   I learn about the history of C and language creators our group did 
 a little presentation about it we also start some exercise in the C language.
 
-<how it will help>
+                         <how it will help>
 
-language C language it's the basics of all languages so it's very 
-important to know about it and will be a great help to learn others like java,
-javacp ,python..
+      language C language it's the basics of all languages so it's very 
+  important to know about it and will be a great help to learn others like java,
+                           javacp ,python..
 
  11-11-2021
 
-<what did I see>
-I did see a lot about language C and I also completed my challenges .
+                           <what did I see>
+  I did see a lot about language C and I also completed my challenges .
 
-<what did I see>
+                           <what did I see>
 
 I did learn more than yesterday about language C after we also created a discord server to do live coding and talk
-about it to exchange information between us  from that, i captured a lot of information about 
-if statemen.
+       about it to exchange information between us  from that, i captured a lot of information about 
+                             if statemen.
 
-<how it will help>
-all that will help me to master C language 
+                        <how it will help>
+             all that will help me to master C language 
 
 
 
 
 15-11-2021
 
-<what did I see>
-At first, I did fix my computer after I counter bios probleme 
-then they told us to choose 10 people to go down to the conference room to meet Frederic Bardeau
+                            <what did I see>
+    At first, I did fix my computer after I counter bios probleme 
+ then they told us to choose 10 people to go down to the conference room to meet Frederic Bardeau
 president Cofondateur after that, we did a quiz about what we learned  the last two weeks
 
-<what did I learn>
-I learned from Frederic Bardeau Statistique
+                          <what did I learn>
+             I learned from Frederic Bardeau Statistique
 that there are jobs when workers and robots work together and jobs that robots can't do and jobs that were dominated by robots 
 he also talk about the numerique transormation and after the quiz, the formateur give us some remark about our progress and what we should do to advance more
 
-<how it will help>
+                           <how it will help>
 all that will lead to self-education that  also will  lead to self-development
-without any boundaries, 
+                      without any boundaries, 
 
 
 16-11-2021
 
-<what did I see>
-today was all about live coding  and we also talked  about the algorithm history and  the big O nation of algorithm  algorithm uses
+                           <what did I see>
+today was all about live coding  and we also talked  about the algorithm
+         history and  the big O nation of algorithm  algorithm uses
 
-<what did I learn>
+                            <what did I learn>
 i learned a lot of things from today class because the live coding we did and how deal with the problemes we counter 
 and a lot of question has been  asked and answered form both the teacher and student after lunch my classmate did  presentaion
 contain history and the structure of algorithm and also, talk about linear search and binary search algorithm
 
 
-<how it will help>
-the live coding was very helpful to improve code problem solving  
-the presentaion also give a lot of information about algoritm .
+                           <how it will help>
+    the live coding was very helpful to improve code problem solving  
+     the presentaion also give a lot of information about algoritm .
 
 
 17-11-2021
-<what did I see>
-today  we start new challengeit was about loops and function and the formateur talk about the our project and sas 
-and the time of next quizz
+                             <what did I see>
+       today  we start new challengeit was about loops and function
+           and the formateur talk about the our project and sas 
+                      and the time of next quizz
 
-<what did I learn>
+                          <what did I learn>
 I learned how to make loops after I watched a guide video about it then tried to do my challenges,I did four but it  was the hardest  
 it was about doing a pyramid with keyboard space and a star symbol in the end the formateur talk about how to solve code probleme 
-in the I did it 
+                         in the I did it 
 
-<how it will help>
+                         <how it will help>
 	
-facing problems and solving them will differently help to improve
-and the trouble ahead easy to solve 
+   facing problems and solving them will differently help to improve
+                  and the trouble a head to solve easy 
 
 
 
 
 30-11-2021
 
-<what did I see>
+                        <what did I see>
 the coach explained to us how our year gonna be and  what  we gonna learn along the course and we also got new baggs
 
-<what did I learn>
+                       <what did I learn>
 today we learn how our  spring gonna be like from studying html and php and adobe xD javacp and a lot of 
 other programs and we also take the new laptop and new bags 
 
-<how it will help>
-it will help by creat new web site and designe
+                       <how it will help>
+             it will help by creat new web site and designe
 
 02-12-21
 
@@ -148,7 +150,7 @@ Today I saw the new information related to HTML & CSS like pseudo class
                            
 
                       <what did I learn>
- in this day i completed brief with resposive and i search at the selectors css like 
+ in this day i completed brief with resposive and i did little search about the selectors css 
  and the element HTML like display.
 
 
@@ -169,8 +171,60 @@ for specific subject and we learned a lot from mobile first & search engine opti
 presentaion 
                    
                           <how it will help>
-from bouth subject i learned the importance of  web mobile
+              from bouth subject i learned the importance of  web mobile
 responsive and relation with search engine optimization 
+
+08-12-21
+                          <what did I see>
+              tody day I completed the brief of web page responsive  
+        then i push it in github after that i hosting them in free server 
+
+                         <what did I learn>
+I learned today the way of host the web page at free server after i finished my breif 
+and also the importance of visibility
+
+
+                         <how it will help>
+ it's necessary to learn how to create a responsive web from the beginning
+        so in the future, I won't find any difficulties
+
+
+09-12-21
+
+                               <what did I see>
+     today our goal was to create a forme web mobile and then turn it into desktop web 
+            also saw adobe xD that specialeies at designe web site
+
+
+                               <what did I learn>
+         all our work was about how to design a mobile forme website from scratch using 
+                       adobe xd then writing it using HTML and CSS 
+
+                                  <how it will help>
+          learning design from scratch it will help to create something 
+                                     original 
+
+10-12-21
+ 
+                                  <what did I see>
+     today was  the last day this week and was especially for the presentation 
+                   about  CSS and finishing forme Breif
+                          
+                                  <what did I learn>
+ today my main job was to finish my forme brief and capture information as much as I can
+ from my colleagues' presentation  also the coach talked about the importance of asking the question Why 
+       and the need of discovering new methods of thinking he also talked about team work 
+
+                                   <how it will help>
+            finding new ways to learn and think will improve your knowledge 
+                                      inevitably
+
+
+
+
+                   
+
+
 
 
 
