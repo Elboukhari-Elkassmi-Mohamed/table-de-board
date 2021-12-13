@@ -221,7 +221,25 @@ and also the importance of visibility
 
 
 
+13-12-21
+                                    
+                                      <what did I see>
+          today we did know about wireframe low and high fidelity, We also had a briefing
+                about HTML and CSS with the coach and  my colleagues did a presentation 
+                                    about grid and flexbox
 
+                                      <what did I learn>
+                 I learned this day that before creating a Website you should always
+                  start with a wireframe first before the beginning of your  project
+                 and my colleges explained the flexbox  and grid in their presentation
+                     we also had a briefing about Html and CSS  6 persons every day 
+
+                                      <how it will help>
+                      it will help by creat web site and improve my designe 
+                                   and help to organize my work
+
+
+                          
                    
 
 
